@@ -4,7 +4,7 @@ from pydantic import BaseModel
 import joblib
 import pandas as pd
 
-MODEL_PATH = "/content/bt_land_ml_api/bt_land_price_model.pkl"
+MODEL_PATH = "bt_land_price_model.pkl"
 
 # Load trained ML model
 model = joblib.load(MODEL_PATH)
